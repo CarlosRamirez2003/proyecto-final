@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>INICIO</title>
+    <Style>
+        .contenedor{
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            background-color: #1c1c9e;
+        }
+
+
+    </Style>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+
+<nav>
+    <div class="nav-wrapper   blue accent-3">
+        <a href="#!" class="brand-logo center">Noticias New York Times <i class="large material-icons">desktop_windows
+        </i>
+        </a>
+        <ul class="left hide-on-med-and-down">
+        </ul>
+    </div>
+</nav>
+
+<div class="contenedor">
+    <img src="https://cdn.pixabay.com/photo/2020/02/16/20/29/nyc-4854718_960_720.jpg"   height="250px" width="500px"/>
+    <img src="https://media-cdn.tripadvisor.com/media/photo-s/0e/9a/e3/1d/freedom-tower.jpg"   height="250px" width="500px"/>
+    <img src="https://www.visittheusa.mx/sites/default/files/styles/hero_l/public/images/hero_media_image/2017-04/7010d1e88b80578f3d4e6fc09c2a2379.jpeg?itok=7s_epXAP"   height="250px" width="500px"/>
+
+</div>
+
+<SPAN style="position: absolute; top: 340px; left: 800px;" class="card-panel blue-grey lighten-2">
+     <p class="flow-text">Bienvenido a la web de noticias sobre New York </p>
+    <p class="flow-text">para ingresar debe de  llenar los campos con su nombre y el motivo de su visita a la pagina</p>
+
+
+</SPAN>
+
+<SPAN style="position: absolute; top: 400px; left: 600px;width: 103px; height: 61px">
+</SPAN>
+
+
+<div class="row">
+    <form class="col s12" method="post" action="Menu.jsp">
+        <div class="row">
+            <div class="input-field col s6">
+                <input id="user_name" name="nombre" type="text" class="validate">
+                <label for="user_name">Nombre </label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s6">
+                <input id="motivo_visit" name="motivo" type="text" class="validate">
+                <label for="motivo_visit">Motivo</label>
+            </div>
+        </div>
+        <button class="btn waves-effect waves-light light-blue accent-2" type="submit" name="action">Iniciar
+            <i class="material-icons right">send</i>
+        </button>
+    </form>
+</div>
+
+
+<footer class="page-footer  blue-grey lighten-1">
+    <div class="container">
+        <div class="row">
+            <div class="col l5 s12">
+                <h5 class="white-text">Creador:</h5>
+                <p class="grey-text text-lighten-4">Carlos Andres Ramirez Garcia </p>
+            </div>
+            <div class="col l5 offset-l2 s12">
+                <h5 class="white-text">Universidad Mariano Galvez de Guatemala</h5>
+                <ul>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            <h5 class="white-text">Fecha Actual</h5>
+
+            <script>
+                date = new Date().toLocaleDateString();
+                document.write(date);
+            </script>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</body>
+</html>
