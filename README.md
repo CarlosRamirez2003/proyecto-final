@@ -11,6 +11,14 @@
 
 ## Descripcion
 
+ servidor de aplicaciones  Tomcat
+ 
+ gestor de base de datos datagrip y intellij
+ 
+ codigo java y jsp
+ 
+ 
+
 el principal objetivo de este proyecto es implementar una aplicacion web la cual se enfoca en las noticias de 
 NewYork Times
 
